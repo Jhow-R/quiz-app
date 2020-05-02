@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Qual o nome da série cujo personagem principal se chama Walter White?"
+        android:textSize="22sp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/radioGroupOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/opcao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vis a Vis"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/opcao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La Casa de Papel"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/opcao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breaking Bad"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/opcao4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greys Anatomy"></RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonProxima"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Próxima">
+    </Button>
+</LinearLayout>
